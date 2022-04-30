@@ -18,8 +18,13 @@
     }
 
     .player {
+      display: flex;
+      flex-grow: 1;
+      justify-content: flex-end;
+      flex-direction:column ;
       width: 800px;
       height: 600px;
+      box-shadow: 10px 25px 5px rgba(0, 0, 0, 0.4);
     }
 
     .js-video-container {
@@ -27,7 +32,7 @@
       height: 100%
     }
   </style>
-</head>
+</head> 
 
 <body>
   <div id="player" class="player">
@@ -40,6 +45,16 @@
       <button class="js-pause-button">
         <i class="fa fa-pause" aria-hidden="true"></i>
       </button>
+      <button>
+        <i></i>
+      </button>
+      <button class="js-mute-button">
+        <i class="fa fa-volume-off"></i>
+      </button>
+      <button class="js-volume-button" hidden>
+        <i class="fa fa-volume-up" aria-hidden="true"></i>
+      </button>
+
     </div>
   </div>
 
