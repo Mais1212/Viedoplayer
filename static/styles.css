@@ -14,19 +14,42 @@
     background-color: black;
 }
 
-.player__elements__element {
+.player__elements__button {
     border: none;
     cursor: pointer;
     color: white;
     background-color: transparent;
     font-size: 14pt;
-    margin: 10px 4px;
+    margin: 10px 4.5px;
 }
 
-.roboto-font {
+.player__elements__time {
+    color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     margin: 12px 1px 0 0;
+}
+
+.player__elements__progress {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 11px 10px;
+    flex-grow: 1;
+    background-color: black;
+}
+
+.player__elements__progress__slider {
+    background-color: red;
+    height: 5px;
+}
+
+.player__elements__progress__dot {
+    height: 8px;
+    width: 8px;
+    background-color: red;
+    border: 4px solid rgba(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
 }
 
 .spacer {
