@@ -23,6 +23,10 @@
     margin: 10px 4.5px;
 }
 
+.player__elements__button:focus {
+    outline: 1px solid white;
+}
+
 .player__elements__time {
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -44,15 +48,16 @@
 }
 
 .player__elements__progress__dot {
+    opacity: 0;
     height: 8px;
     width: 8px;
     background-color: red;
     border: 4px solid rgba(255, 255, 255);
     border-radius: 50%;
     display: inline-block;
+    transition-duration: 300ms;
 }
 
-.spacer {
-    flex-grow: 1;
-    display: inline-block;
+.player__elements__progress:hover .player__elements__progress__dot {
+    opacity: 1;
 }
