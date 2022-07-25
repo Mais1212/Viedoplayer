@@ -8,13 +8,13 @@
     box-shadow: 5px 7px 5px rgba(0, 0, 0, 0.4);
 }
 
-.player__elements {
+.elements {
     display: flex;
     flex-direction: row;
     background-color: black;
 }
 
-.player__elements__button {
+.elements__button {
     border: none;
     cursor: pointer;
     color: white;
@@ -23,18 +23,18 @@
     margin: 10px 4.5px;
 }
 
-.player__elements__button:focus {
+.elements__button:focus {
     outline: 1px solid white;
 }
 
-.player__elements__time {
+.elements__time {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     margin: 12px 1px 0 0;
 }
 
-.player__elements__progress {
+.elements__progress {
     display: flex;
     align-items: center;
     margin: 10px 0 11px 10px;
@@ -42,12 +42,12 @@
     background-color: black;
 }
 
-.player__elements__progress__slider {
+.elements__slider {
     background-color: red;
     height: 5px;
 }
 
-.player__elements__progress__dot {
+.elements__dot {
     opacity: 0;
     height: 8px;
     width: 8px;
@@ -58,6 +58,6 @@
     transition-duration: 300ms;
 }
 
-.player__elements__progress:hover .player__elements__progress__dot {
+.elements__progress:hover .elements__dot {
     opacity: 1;
 }

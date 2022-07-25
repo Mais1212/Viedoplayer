@@ -6,36 +6,33 @@
     <link type="image/x-icon" href="images/icon.png" rel="shortcut icon">
     <meta charset="utf-8">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/normalize.css">
 </head>
 
 <body>
     <div id="player" class="player">
         <div class="js-video-container" style="width: 100%; height: 100%;"></div>
-        <div class="player__elements">
-            <button class="js-play-button player__elements__button">
+        <div class="elements">
+            <button class="js-play-button elements__button">
                 <i class="fa fa-play" aria-hidden="true"></i>
             </button>
-            <button class="js-pause-button player__elements__button">
+            <button class="js-pause-button elements__button">
                 <i class="fa fa-pause" aria-hidden="true"></i>
             </button>
-            <button class="js-mute-button player__elements__button">
+            <button class="js-mute-button elements__button">
                 <i class="fa fa-volume-up"></i>
             </button>
-            <button class="js-volume-button player__elements__button" hidden>
+            <button class="js-volume-button elements__button" hidden>
                 <i class="fa fa-volume-off" aria-hidden="true"></i>
             </button>
-            <span class="js-current-time player__elements__time"></span>
-            <div class="js-progress player__elements__progress">
-                <div class="js-progress-slider player__elements__progress__slider"></div>
-                <span class="player__elements__progress__dot"></span>
+            <span class="js-current-time elements__time"></span>
+            <div class="js-progress elements__progress">
+                <div class="js-progress-slider elements__slider"></div>
+                <span class="elements__dot"></span>
             </div>
-            <span class="js-duration player__elements__time"></span>
-            <button class="js-fullscreen-button player__elements__button">
+            <span class="js-duration elements__time"></span>
+            <button class="js-fullscreen-button elements__button">
                 <i class="fa fa-expand" aria-hidden="true"></i>
             </button>
         </div>
