@@ -23,6 +23,16 @@
     margin: 10px 4.5px;
 }
 
+.elements__button_play,
+.elements__button_pause {
+    width: 28px;
+}
+
+.elements__button_volume-off,
+.elements__button_volume-up {
+    width: 24px;
+}
+
 .elements__button:focus {
     outline: 1px solid white;
 }
